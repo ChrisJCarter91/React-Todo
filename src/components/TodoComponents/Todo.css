@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      background-color: #3ab5e5
+  }
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.todo-item {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    background: red;
+    margin-top: 5%;
+    color: white;
+    font-size: 2rem;
+}
+
+.App {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 4rem;
+}
+
+button {
+    background-color:#55596d
+}
+
+form {
+    margin-top: 5%;
+}
